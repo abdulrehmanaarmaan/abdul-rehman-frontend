@@ -38,7 +38,7 @@ const Navbar = () => {
                     </div>
                     {/* CTA Button */}
                     <div className="hidden md:block">
-                        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 active:scale-95">
+                        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 active:scale-95 cursor-pointer">
                             Enroll now
                         </button>
                     </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
                                 {link.name}
                             </Link>
                         ))}
-                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 mt-4">
+                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 mt-4 cursor-pointer">
                             Enroll now
                         </button>
                     </div>
