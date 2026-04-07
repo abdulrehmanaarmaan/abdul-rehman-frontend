@@ -12,9 +12,9 @@ export default function Home() {
       <HeroSection />
       <FocusSupportSection />
       <CourseTimelineSection />
-      <CourseModules />
-      <TestimonialsSection />
-      <Pricing />
+      {/* <CourseModules /> */}
+      {/* <TestimonialsSection /> */}
+      {/* <Pricing /> */}
     </div>
   );
 }
