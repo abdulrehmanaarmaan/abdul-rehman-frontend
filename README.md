@@ -8,7 +8,7 @@ A responsive, production-ready landing page built with Next.js, and Tailwind CSS
 
 ## 🛠️ Built With
 
-- Next.js 15
+- Next.js 16
 - Tailwind CSS
 - React Icons
 
