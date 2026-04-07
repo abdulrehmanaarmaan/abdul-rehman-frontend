@@ -14,7 +14,7 @@ export default function Home() {
       <CourseTimelineSection />
       <CourseModules />
       <TestimonialsSection />
-      {/* <Pricing /> */}
+      <Pricing />
     </div>
   );
 }
