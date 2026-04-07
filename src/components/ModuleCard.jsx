@@ -10,9 +10,6 @@ const ModuleCard = ({ module, isExpanded, onToggle }) => {
                 className="w-full flex items-center justify-between p-5 sm:p-6 hover:bg-white/5 transition-colors duration-200 cursor-pointer"
             >
                 <div className="flex items-start gap-4 text-left flex-1">
-                    {/* <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0"> */}
-                    {/* <span className="text-sm font-bold text-white">{moduleIndex + 1}</span> */}
-                    {/* </div> */}
                     <div className="flex-1 min-w-0">
                         <h3 className="text-base md:text-[20px] font-medium text-white mb-1 pr-4">
                             {module.title}
@@ -22,7 +19,7 @@ const ModuleCard = ({ module, isExpanded, onToggle }) => {
                         </p>
                     </div>
                 </div>
-                <div className="flex-shrink-0 ml-2">
+                <div className="shrink-0 ml-2">
                     {isExpanded ? (
                         <FiChevronUp className="text-white/70" size={20} />
                     ) : (
@@ -40,7 +37,7 @@ const ModuleCard = ({ module, isExpanded, onToggle }) => {
                                 className="flex items-center justify-between py-3 px-4 rounded-lg hover:bg-white/5 transition-colors duration-200 group"
                             >
                                 <div className="flex items-center gap-3 flex-1 min-w-0">
-                                    <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${lesson.locked
+                                    <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${lesson.locked
                                         ? 'bg-white/5'
                                         : 'bg-blue-600/20 group-hover:bg-blue-600/30'
                                         }`}>
@@ -55,7 +52,7 @@ const ModuleCard = ({ module, isExpanded, onToggle }) => {
                                         {lesson.title}
                                     </span>
                                 </div>
-                                <span className={`text-[13px] md:text-[17px] font-medium ml-3 flex-shrink-0 ${lesson.locked ? 'text-white/30' : 'text-white/50'
+                                <span className={`text-[13px] md:text-[17px] font-medium ml-3 shrink-0 ${lesson.locked ? 'text-white/30' : 'text-white/50'
                                     }`}>
                                     {lesson.duration}
                                 </span>

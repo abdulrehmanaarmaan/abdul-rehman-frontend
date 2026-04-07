@@ -42,7 +42,7 @@ const CourseTimelineSection = () => {
                 <div className="relative w-fit mx-auto">
 
                     {/* Vertical Line */}
-                    <div className="absolute left-[14px] sm:left-4 top-0 h-full w-[2px] bg-blue-500/30"></div>
+                    <div className="absolute left-3.5 sm:left-4 top-0 h-full w-0.5 bg-blue-500/30"></div>
 
                     {/* Steps */}
                     <div className="flex flex-col gap-8 sm:gap-10 md:gap-12">
@@ -50,7 +50,7 @@ const CourseTimelineSection = () => {
                             <div key={index} className="relative flex items-start gap-4 sm:gap-6">
 
                                 {/* Dot */}
-                                <div className="absolute left-[10px] sm:left-2.5 top-2 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-blue-500 rounded-full"></div>
+                                <div className="absolute left-2.5 sm:left-2.5 top-2 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-blue-500 rounded-full"></div>
 
                                 <div className='ml-6 md:ml-15'>
                                     {/* Icon */}
@@ -59,7 +59,7 @@ const CourseTimelineSection = () => {
                                     </div>
 
                                     {/* Text */}
-                                    <p className="text-gray-300 text-xs sm:text-sm md:text-[24px] leading-relaxed max-w-[200px] sm:max-w-xs md:max-w-sm">
+                                    <p className="text-gray-300 text-xs sm:text-sm md:text-[24px] leading-relaxed max-w-50 sm:max-w-xs md:max-w-sm">
                                         {step.text}
                                     </p>
                                 </div>

@@ -29,7 +29,7 @@ const FocusSupportSection = () => {
                 {/* Bottom Content */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-14 items-center w-full">
                     {/* Left Image */}
-                    <div className="relative w-full h-[240px] sm:h-[300px] md:h-[420px] lg:h-[480px] rounded-2xl overflow-hidden order-1 md:order-none">
+                    <div className="relative w-full h-60 sm:h-75 md:h-105 lg:h-120 rounded-2xl overflow-hidden order-1 md:order-0">
                         <Image
                             src="https://res.cloudinary.com/dincextlz/image/upload/v1775416335/image_pah8sy.png"
                             alt="Focus person"
@@ -40,7 +40,7 @@ const FocusSupportSection = () => {
                         />
                     </div>
                     {/* Right Card */}
-                    <div className="bg-[#11161C] p-5 sm:p-6 md:p-8 rounded-2xl relative overflow-hidden order-2 md:order-none">
+                    <div className="bg-[#11161C] p-5 sm:p-6 md:p-8 rounded-2xl relative overflow-hidden order-2 md:order-0">
                         {/* Small Label */}
                         {/* <span className="text-xs sm:text-sm text-gray-400"> */}
                         {/* New students */}

@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
-import { FiCheck, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const TestimonialsSection = () => {
 
@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
     };
 
     return (
-        <section className="relative bg-black text-white py-14 sm:py-16 lg:py-24 overflow-hidden">
+        <section id="testimonials" className="scroll-mt-20 relative bg-black text-white py-14 sm:py-16 lg:py-24 overflow-hidden">
             {/* Background */}
             <div className="absolute -top-20 -left-20 w-72 sm:w-96 h-72 sm:h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[52px] leading-tight font-medium">
                         Real Results from
                         <br className="hidden sm:block" />
-                        <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                        <span className="bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
                             Real People
                         </span>
                     </h2>
@@ -62,7 +62,7 @@ const TestimonialsSection = () => {
                     <p className="text-xs md:text-[28px] text-white/60 mb-5 font-medium ml-6 ">
                         Join with 5K other students
                     </p>
-                    <div className="bg-white/5 border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 min-h-[300px] sm:min-h[360px] flex flex-col justify-between">
+                    <div className="bg-white/5 border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 min-h-75 sm:min-h[360px] flex flex-col justify-between">
                         <p className="text-white/80 text-sm md:text-base lg:text-[17px] leading-relaxed">
                             {testimonials[currentTestimonial].quote}
                         </p>

@@ -30,7 +30,7 @@ const HeroSection = () => {
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[52px] xl:text-7xl leading-tight font-medium">
                             Master Focus & Get
                             <br />
-                            <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                            <span className="bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
                                 More Done in Less Time
                             </span>
                         </h1>
@@ -55,34 +55,14 @@ const HeroSection = () => {
                                 Curriculum
                             </button>
                         </div>
-
-
-                        {/* Stats/Social Proof - Responsive layout */}
-                        {/* <div className="flex flex-wrap items-center gap-4 sm:gap-6 lg:gap-8 pt-4"> */}
-                        {/* <div className="flex-shrink-0"> */}
-                        {/* <div className="text-2xl sm:text-3xl font-black text-white">20K+</div> */}
-                        {/* <div className="text-xs sm:text-sm text-white/50 font-medium whitespace-nowrap">Active Students</div> */}
-                        {/* </div> */}
-                        {/* <div className="w-px h-10 sm:h-12 bg-white/10 hidden xs:block"></div> */}
-                        {/* <div className="flex-shrink-0"> */}
-                        {/* <div className="text-2xl sm:text-3xl font-black text-white">4.9</div> */}
-                        {/* <div className="text-xs sm:text-sm text-white/50 font-medium whitespace-nowrap">Average Rating</div> */}
-                        {/* </div> */}
-                        {/* <div className="w-px h-10 sm:h-12 bg-white/10 hidden xs:block"></div> */}
-                        {/* <div className="flex-shrink-0"> */}
-                        {/* <div className="text-2xl sm:text-3xl font-black text-white">98%</div> */}
-                        {/* <div className="text-xs sm:text-sm text-white/50 font-medium whitespace-nowrap">Completion Rate</div> */}
-                        {/* </div> */}
-                        {/* </div> */}
                     </div>
-
 
                     {/* Right Content - Video/Image Section */}
                     <div className="relative order-1 lg:order-2">
                         {/* Main video container - Responsive sizing */}
                         <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
                             {/* Video thumbnail */}
-                            <div className="relative aspect-video sm:aspect-[4/3] bg-gradient-to-br from-gray-900 to-black">
+                            <div className="relative aspect-video sm:aspect-4/3 bg-linear-to-br from-gray-900 to-black">
                                 {/* Replace with actual video thumbnail image */}
                                 <Image
                                     src="https://res.cloudinary.com/dincextlz/image/upload/v1775415265/image_lhwaft.png"
@@ -98,33 +78,8 @@ const HeroSection = () => {
                                         <FiPlay className="text-black ml-0.5 sm:ml-1 group-hover:scale-110 transition-transform" size={24} />
                                     </button>
                                 </div>
-
-
-                                {/* Bottom info bar - Responsive padding and text */}
-                                {/* <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-3 sm:p-4 md:p-6"> */}
-                                {/* <div className="text-xs sm:text-sm font-medium text-white leading-relaxed"> */}
-                                {/* If you struggle to focus, feel overwhelmed by endless tasks, */}
-                                {/* or procrastinate instead of making progress, you're not alone. */}
-                                {/* </div> */}
-                                {/* </div> */}
                             </div>
                         </div>
-
-
-                        {/* Floating avatars - Responsive positioning and sizing */}
-                        {/* <div className="absolute -bottom-4 sm:-bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 sm:gap-3 bg-black/80 backdrop-blur-md border border-white/10 rounded-full px-3 sm:px-4 md:px-6 py-2 sm:py-3 shadow-xl max-w-[90%] sm:max-w-none"> */}
-                        {/* <div className="flex -space-x-2 sm:-space-x-3"> */}
-                        {/* {/* <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-black bg-gradient-to-br from-blue-400 to-purple-600"></div> */}
-                        {/* {/* <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-black bg-gradient-to-br from-pink-400 to-orange-600"></div> */}
-                        {/* {/* <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-black bg-gradient-to-br from-green-400 to-teal-600"></div> */}
-                        {/* </div> */}
-                        {/* <div className="text-xs sm:text-sm"> */}
-                        {/* <span className="font-bold text-white">2,000+</span> */}
-                        {/* <span className="text-white/60 ml-1 hidden xs:inline">joined this week</span> */}
-                        {/* <span className="text-white/60 ml-1 xs:hidden">joined</span> */}
-                        {/* </div> */}
-                        {/* </div> */}
-
 
                         {/* Decorative elements - Responsive sizing */}
                         <div className="absolute -top-2 sm:-top-4 -right-2 sm:-right-4 w-16 sm:w-24 h-16 sm:h-24 bg-blue-500/20 rounded-full blur-2xl animate-pulse"></div>

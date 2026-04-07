@@ -60,8 +60,8 @@ const CourseModules = () => {
     return (
         <section className="relative bg-black text-white py-14 sm:py-16 lg:py-24 overflow-hidden">
             {/* Background decorative elements */}
-            <div className="pointer-events-none absolute -top-20 -right-20 w-[300px] sm:w-96 h-[300px] sm:h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
-            <div className="pointer-events-none absolute -bottom-20 -left-20 w-[300px] sm:w-96 h-[300px] sm:h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
+            <div className="pointer-events-none absolute -top-20 -right-20 w-75 sm:w-96 h-75 sm:h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
+            <div className="pointer-events-none absolute -bottom-20 -left-20 w-75 sm:w-96 h-75 sm:h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-10 sm:mb-14 lg:mb-16">
@@ -81,8 +81,8 @@ const CourseModules = () => {
                 {/* Grid Layout */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-start">
                     {/* Left Column */}
-                    <div>
-                        <div className="space-y-4 sm:space-y-5">
+                    <div className='space-y-4 md:space-y-5'>
+                        <div className="space-y-4 md:space-y-5">
                             {modules.slice(0, 2).map((module, index) => (
                                 <ModuleCard
                                     key={index}
@@ -94,7 +94,7 @@ const CourseModules = () => {
                             ))}
                         </div>
                         {/* Right Column */}
-                        <div className="space-y-4 sm:space-y-5">
+                        <div className="space-y-4 md:space-y-5">
                             {modules.slice(2).map((module, index) => (
                                 <ModuleCard
                                     key={index + 2}
@@ -119,7 +119,7 @@ const CourseModules = () => {
                                 "Exclusive Community - Connect with others",
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-3 text-xs sm:text-sm text-white/70">
-                                    <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                                    <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 shrink-0"></div>
                                     <span className='text-[13px] md:text-[15px]'>{item}</span>
                                 </li>
                             ))}

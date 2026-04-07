@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     {/* Right CTA */}
                     <div className="w-full">
-                        <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-4 sm:p-6 md:p-8 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 hover:shadow-2xl hover:shadow-blue-600/20 transition-all duration-300 group">
+                        <div className="bg-linear-to-br from-blue-600 to-blue-700 rounded-2xl p-4 sm:p-6 md:p-8 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 hover:shadow-2xl hover:shadow-blue-600/20 transition-all duration-300 group">
                             {/* Left Content */}
                             <div className="flex items-center gap-3 sm:gap-4">
                                 {/* Avatars */}
@@ -48,7 +48,7 @@ const Footer = () => {
                                 </p>
                             </div>
                             {/* Arrow */}
-                            <div className="flex-shrink-0 cursor-pointer">
+                            <div className="shrink-0 cursor-pointer">
                                 <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                                     <FiArrowRight className="text-blue-600" size={18} />
                                 </div>
@@ -70,7 +70,7 @@ const Footer = () => {
                             {[
                                 { label: "Terms & conditions", href: "/terms" },
                                 { label: "Refund policy", href: "/refund" },
-                                { label: "Pricing", href: "/pricing" },
+                                { label: "Pricing", href: "#pricing" },
                                 { label: "Support", href: "/support" },
                             ].map((link, i) => (
                                 <Link

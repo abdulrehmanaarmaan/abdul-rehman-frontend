@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <section className="relative bg-black text-white py-14 sm:py-16 lg:py-24 overflow-hidden">
+        <section id="pricing" className="scroll-mt-20 relative bg-black text-white py-14 sm:py-16 lg:py-24 overflow-hidden">
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
                     {/* Left - Course Info */}
@@ -12,18 +12,18 @@ const Pricing = () => {
                         </h3>
                         <ul className="space-y-3 mt-6">
                             <li className="flex gap-3 text-xs sm:text-sm text-white/80">
-                                <div className="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0 mt-1"></div>
+                                <div className="w-4 h-4 bg-blue-600 rounded-full shrink-0 mt-1"></div>
                                 <span className='text-[15px]'>Bonus: 11 coaching sessions to boost focus</span>
                             </li>
                             <li className="flex gap-3 text-xs sm:text-sm text-white/80">
-                                <div className="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0 mt-1"></div>
+                                <div className="w-4 h-4 bg-blue-600 rounded-full shrink-0 mt-1"></div>
                                 <span className='text-[15px]'>Discount: Save 30% when you enroll now</span>
                             </li>
                         </ul>
                     </div>
                     {/* Right - Pricing */}
                     <div>
-                        <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 space-y-6">
+                        <div className="bg-linear-to-br from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10 space-y-6">
                             <div className="flex items-end gap-2 sm:gap-3 flex-wrap">
                                 <span className="text-4xl md:text-5xl lg:text-[52px] font-medium">
                                     $349
@@ -40,7 +40,7 @@ const Pricing = () => {
                                     "Exclusive Community - Connect with others",
                                 ].map((item, i) => (
                                     <li key={i} className="flex gap-3 text-xs sm:text-sm text-white/80">
-                                        <div className="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0 mt-1"></div>
+                                        <div className="w-4 h-4 bg-blue-600 rounded-full shrink-0 mt-1"></div>
                                         <span>{item}</span>
                                     </li>
                                 ))}
