@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection />
       <FocusSupportSection />
       <CourseTimelineSection />
-      {/* <CourseModules /> */}
+      <CourseModules />
       {/* <TestimonialsSection /> */}
       {/* <Pricing /> */}
     </div>
