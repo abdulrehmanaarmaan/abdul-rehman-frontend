@@ -13,7 +13,7 @@ export default function Home() {
       <FocusSupportSection />
       <CourseTimelineSection />
       <CourseModules />
-      {/* <TestimonialsSection /> */}
+      <TestimonialsSection />
       {/* <Pricing /> */}
     </div>
   );
