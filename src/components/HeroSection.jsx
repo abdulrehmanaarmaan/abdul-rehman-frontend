@@ -4,7 +4,7 @@ import { FiPlay } from 'react-icons/fi';
 
 const HeroSection = () => {
     return (
-        <section className="relative min-h-screen bg-black text-white overflow-hidden">
+        <section className="pt-35 relative bg-black text-white overflow-hidden">
             {/* Background gradient effects */}
             <div className="absolute inset-0 bg-linear-to-b from-black via-black to-black"></div>
 
@@ -19,9 +19,9 @@ const HeroSection = () => {
                     {/* Left Content */}
                     <div className="space-y-6 sm:space-y-8 order-1 text-center">
                         {/* Small tag */}
-                        <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-3 sm:px-4 py-1.5 sm:py-2">
-                            <span className="text-[10px] sm:text-xs font-medium text-white/70">
-                                🎯 30% off until 4d : 2h : 41m : 17s
+                        <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-3 md:px-4 py-1.5 md:py-2">
+                            <span className="flex items-center gap-2 text-xs md:text-[15px] text-[#D0D5D9]">
+                                <span className='rounded-full h-2 w-2 bg-[#2466F2]' /> 30% off until 4d : 2h : 41m : 17s
                             </span>
                         </div>
 

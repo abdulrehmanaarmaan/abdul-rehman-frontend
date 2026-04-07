@@ -1,6 +1,6 @@
 # WAMAC Assessment - Frontend Landing Page
 
-A responsive, production-ready landing page built with Next.js, and Tailwind CSS.
+A responsive, production-ready landing page built with Next.js and Tailwind CSS.
 
 ## 🔗 Live Demo
 
@@ -30,5 +30,3 @@ npm run build
 - ✅ Interactive components
 - ✅ Accessible and semantic HTML
 - ✅ Optimized performance
-
-## 📂 Repository Structure

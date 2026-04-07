@@ -7,6 +7,11 @@ const Pricing = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
                     {/* Left - Course Info */}
                     <div className="bg-white/5 border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-10">
+                        <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-3 md:px-4 py-2 mb-5">
+                            <span className="flex items-center gap-2 text-[10px] md:text-[15px] text-white/70">
+                                <span className='rounded-full h-2 w-2 bg-[#2466F2]' /> Introducing
+                            </span>
+                        </div>
                         <h3 className="text-xl md:text-2xl lg:text-[40px] font-medium">
                             The Deep Work Blueprint
                         </h3>
@@ -45,7 +50,7 @@ const Pricing = () => {
                                     </li>
                                 ))}
                             </ul>
-                            <button className="w-full bg-blue-600 text-white py-3 sm:py-4 rounded-xl text-sm sm:text-base cursor-pointer">
+                            <button className="w-full bg-blue-600 text-white py-3 rounded-xl text-sm md:text-[17px] font-medium cursor-pointer hover:bg-blue-700 transition-all duration-200 active:scale-95">
                                 Enroll now
                             </button>
                         </div>

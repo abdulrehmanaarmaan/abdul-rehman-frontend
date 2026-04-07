@@ -44,16 +44,15 @@ const TestimonialsSection = () => {
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="text-center mb-10 sm:mb-14 lg:mb-16">
-                    <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-3 sm:px-4 py-1.5 mb-5">
-                        <span className="text-[10px] md:text-[15px] text-white/70">
-                            💬 Testimonials
+                    <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-3 md:px-4 py-2 mb-5">
+                        <span className="flex items-center gap-2 text-[10px] md:text-[15px] text-white/70">
+                            <span className='rounded-full h-2 w-2 bg-[#2466F2]' /> Testimonials
                         </span>
                     </div>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[52px] leading-tight font-medium">
                         Real Results from
-                        <br className="hidden sm:block" />
-                        <span className="bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-                            Real People
+                        <br className="hidden md:block" />
+                        <span className="bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent"> Real People
                         </span>
                     </h2>
                 </div>

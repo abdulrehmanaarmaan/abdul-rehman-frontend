@@ -65,9 +65,9 @@ const CourseModules = () => {
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-10 sm:mb-14 lg:mb-16">
-                    <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-5 sm:mb-6">
-                        <span className="text-[10px] md:text-[15px] text-white/70">
-                            📚 Course Curriculum
+                    <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-3 md::px-4 py-1.5 md:py-2 mb-5 md:mb-6">
+                        <span className="flex items-center gap-2 text-xs md:text-[15px] text-[#D0D5D9]">
+                            <span className='rounded-full h-2 w-2 bg-[#2466F2]' /> Course Curriculum
                         </span>
                     </div>
                     <h2 className="text-2xl md:text-3xl lg:text-[40px] font-medium mb-4 leading-tight max-w-3xl mx-auto">
@@ -124,7 +124,7 @@ const CourseModules = () => {
                                 </li>
                             ))}
                         </ul>
-                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white text-sm md:text-[17px] font-medium py-2.5 sm:py-3 rounded-xl transition-all duration-200 active:scale-95 cursor-pointer">
+                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white text-sm md:text-[17px] font-medium py-2.5 md:py-3 rounded-xl transition-all duration-200 active:scale-95 cursor-pointer">
                             Enroll now
                         </button>
                     </div>

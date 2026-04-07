@@ -68,10 +68,10 @@ const Footer = () => {
                         {/* Links */}
                         <div className="flex flex-wrap items-center justify-center sm:justify-end gap-4 sm:gap-6 lg:gap-8 order-1 sm:order-2">
                             {[
-                                { label: "Terms & conditions", href: "/terms" },
-                                { label: "Refund policy", href: "/refund" },
-                                { label: "Pricing", href: "#pricing" },
-                                { label: "Support", href: "/support" },
+                                { label: "Terms & conditions", href: "" },
+                                { label: "Refund policy", href: "" },
+                                { label: "Pricing", href: "" },
+                                { label: "Support", href: "" },
                             ].map((link, i) => (
                                 <Link
                                     key={i}

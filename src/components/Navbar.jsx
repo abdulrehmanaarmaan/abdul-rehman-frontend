@@ -16,11 +16,11 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-b border-white/10 py-6 px-20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16 sm:h-18 lg:h-20">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+                <div className="flex items-center justify-between">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src='https://res.cloudinary.com/dincextlz/image/upload/v1775492170/image_gvblnc.png' alt='' width={70} height={70} />
+                        <Image src='https://res.cloudinary.com/dincextlz/image/upload/v1775492170/image_gvblnc.png' alt='logo' width={70} height={70} />
                     </Link>
                     {/* Desktop Nav */}
                     <div className="hidden md:flex items-center gap-6 lg:gap-8">
@@ -36,7 +36,7 @@ const Navbar = () => {
                     </div>
                     {/* CTA */}
                     <div className="hidden md:block">
-                        <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 lg:px-6 py-2 sm:py-2.5 rounded-lg transition-all duration-200 active:scale-95 cursor-pointer font-medium">
+                        <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 lg:px-6 py-2 md:py-2.5 rounded-lg transition-all duration-200 active:scale-95 cursor-pointer font-medium">
                             Enroll now
                         </button>
                     </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
             {/* Mobile Menu */}
             {mobileMenuOpen && (
                 <div className="md:hidden bg-black/95 border-t border-white/10">
-                    <div className="px-4 sm:px-6 py-5 space-y-4">
+                    <div className="px-4 md:px-6 space-y-4">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.name}

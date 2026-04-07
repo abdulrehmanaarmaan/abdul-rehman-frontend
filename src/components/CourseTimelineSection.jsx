@@ -23,16 +23,17 @@ const CourseTimelineSection = () => {
     ];
 
     return (
-        <section className="bg-[#070B10] text-white py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8">
+        <section className="bg-[#070B10] text-white py-16 md:py-20 lg:py-24 px-4 md:px-6 lg:px-8">
             <div className="max-w-2xl mx-auto flex flex-col items-center">
 
                 {/* Badge */}
-                <span className="text-[15px] sm:text-xs text-blue-400 bg-[#0F1720] px-3 py-1 rounded-full mb-5 sm:mb-6">
-                    The Deep Work Blueprint
+                <span className="flex items-center gap-2 text-xs md:text-[15px] text-[#D0D5D9] bg-white/5 border border-white/10 px-4 py-2 rounded-full mb-5 md:mb-6">
+                    <span className='rounded-full h-2 w-2 bg-[#2466F2]' /> <span>The Deep Work Blueprint</span>
                 </span>
 
+
                 {/* Heading */}
-                <h2 className="text-center text-xl md:text-[40px] font-medium text-gray-200 mb-12 sm:mb-14 md:mb-16 leading-snug max-w-lg md:max-w-full">
+                <h2 className="text-center text-xl md:text-[40px] font-medium text-gray-200 mb-40 leading-snug max-w-lg md:max-w-full">
                     A self-paced, results-driven
                     <br className="hidden sm:block" />
                     course designed to help you

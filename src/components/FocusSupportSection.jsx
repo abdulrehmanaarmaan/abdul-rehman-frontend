@@ -4,11 +4,17 @@ import React from 'react';
 const FocusSupportSection = () => {
 
     return (
-        <section className="bg-[#0B0F14] text-white py-14 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
+        <section id="graduates" className="bg-[#0B0F14] text-white py-40 md:py-50 px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl xl:max-w-7xl mx-auto flex flex-col items-center">
                 {/* Top Text */}
                 <div className="text-center mb-10 md:mb-14">
-                    <p className="text-base sm:text-lg md:text-[52px] text-[#E0E3E5] leading-relaxed">
+                    <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-3 md:px-4 py-1.5 md:py-2 mb-8 mx-auto">
+                        <span className="flex items-center gap-2 text-xs md:text-[15px] text-[#D0D5D9]">
+                            <span className='rounded-full h-2 w-2 bg-[#2466F2]' /> Are Distractions Holding You Back?
+                        </span>
+                    </div>
+
+                    <p className="text-[28px] md:text-[52px] text-[#E0E3E5] leading-relaxed">
                         If you struggle to focus, feel overwhelmed by endl<span className='text-[#dfe2e54d]'>ess tasks, or
                             procrastinate instead of making progress, you're not alone.</span>
                     </p>
@@ -41,16 +47,11 @@ const FocusSupportSection = () => {
                     </div>
                     {/* Right Card */}
                     <div className="bg-[#11161C] p-5 sm:p-6 md:p-8 rounded-2xl relative overflow-hidden order-2 md:order-0">
-                        {/* Small Label */}
-                        {/* <span className="text-xs sm:text-sm text-gray-400"> */}
-                        {/* New students */}
-                        {/* </span> */}
-                        {/* Text */}
                         <h3 className="mt-3 sm:mt-4 text-base sm:text-lg md:text-xl text-gray-200 leading-relaxed max-w-md pr-10 sm:pr-12">
                             <span className='text-[17px]'>The ability to concentrate deeply is underrated in today's world.</span>
                             <br className="hidden sm:block" />
                             <br className="hidden sm:block" />
-                            <span className='text-[28px] font-medium'>And fortunately it's a skill you can train & develop.</span>
+                            <span className='text-[24px] md:text-[28px] font-medium block'>And fortunately its a skill you can train & develop.</span>
                         </h3>
                         {/* Side Avatars */}
                         <div className="absolute right-3 top-3 sm:right-4 sm:top-4 flex flex-col space-y-2 sm:space-y-3">
